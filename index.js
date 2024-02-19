@@ -1,4 +1,8 @@
 function makeAlert(str){
-    alert(str)
+    console.log(str)
 }
-module.exports = makeAlert
+
+
+function scndFunc(str){}
+
+module.exports = makeAlert, scndFunc
